@@ -57,7 +57,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 .header-logo{
@@ -94,9 +94,10 @@ a {
 }
 
 .header-text {
+    max-width: 800px;
     font-size: 18px;
     color: #e5e7ebac;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
     margin-right: 32px;
 }
 
@@ -110,7 +111,7 @@ a {
 }
 
 .header-img img {
-    width: 500px;
+    width: 470px;
     height: 200px;
 }
 
@@ -127,25 +128,30 @@ a {
     font-weight: bolder;
     font-size: 36px;
     color: #1F2937;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
 }
 
 .info-img-container {
     display: flex;
     justify-content: center;
-    gap: 32px;
-    text-align: center;
     font-size: small;
     color: #a9abae;
+    gap: 16px;
 }
 
 .info {
-    max-width: 200px;
+    padding: 0;
+    margin: 0;
+    max-width: 150px;
+    text-align: center;
 }
 
 .info img{
     border: 2px solid #3882F6;
-    padding: 8px 16px;
+    border-radius: 6px;
+    padding: 8px 24px;
+    width: 70px;
+    height: 100px;
 }
 
 
@@ -155,19 +161,20 @@ a {
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
-    padding: 72px;
+    padding: 40px;
 }
 
 .quote-center-container {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 600px;
     gap: 8px;
 }
 
 .quote-text {
     color: #1f2937;
-    font-style: light italic;
+    font-style: italic;
+    font-size: 20px;
 }
 
 .quote-author {
@@ -179,13 +186,26 @@ a {
 /* Action / Button box */
 
 .action-container{
-    padding: 48px;
+    padding: 54px 72px;
 }
 
 .button-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
     background: #3882F6;
-    padding: 16px;
+    padding: 24px 64px;
     color: #e5e7eb;
+}
+
+.button-box-title{
+    font-size: 22px;
+    color: #F9FAF8;
+}
+
+.button-box-text{
+ 
 }
 
 .box-button{
@@ -200,7 +220,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 20px;
     color: #e5e7eb;
     font-size: xx-small;
 }
